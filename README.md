@@ -1,5 +1,5 @@
 # 例子
-`
+```
 package main
 
 import (
@@ -20,4 +20,4 @@ func main() {
 	r.Handle("/2/", new(IndexHandler))
 	r.Run("0.0.0.0:8888")
 }
-`
+```
